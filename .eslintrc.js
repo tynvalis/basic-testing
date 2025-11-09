@@ -15,16 +15,16 @@ module.exports = {
     node: true,
     jest: true,
   },
-  'prettier/prettier': [
-    'error',
-    {
-      endOfLine: 'auto',
-    },
-  ],
   ignorePatterns: ['.eslintrc.js'],
   rules: {
     '@typescript-eslint/interface-name-prefix': 'off',
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/explicit-module-boundary-types': 'off',
+    'prettier/prettier': [
+      'error',
+      {
+        endOfLine: 'auto',
+      },
+    ],
   },
 };
